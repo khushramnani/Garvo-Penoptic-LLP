@@ -507,29 +507,53 @@ video {
 .relative {
   position: relative;
 }
+.left-0 {
+  left: 0px;
+}
+.top-0 {
+  top: 0px;
+}
+.mr-4 {
+  margin-right: 1rem;
+}
+.mt-3 {
+  margin-top: 0.75rem;
+}
+.mt-5 {
+  margin-top: 1.25rem;
+}
+.block {
+  display: block;
+}
 .flex {
   display: flex;
 }
 .hidden {
   display: none;
 }
-.h-\[50vh\] {
-  height: 50vh;
+.h-screen {
+  height: 100vh;
 }
 .w-12 {
   width: 3rem;
 }
-.w-24 {
-  width: 6rem;
+.w-8 {
+  width: 2rem;
 }
 .w-full {
   width: 100%;
 }
-.w-3\/4 {
-  width: 75%;
+.w-screen {
+  width: 100vw;
+}
+.flex-col {
+  flex-direction: column;
 }
 .items-center {
   align-items: center;
+}
+.justify-end {
+  justify-content: flex-end;
 }
 .justify-center {
   justify-content: center;
@@ -543,89 +567,106 @@ video {
 .gap-20 {
   gap: 5rem;
 }
-.rounded-lg {
-  border-radius: 0.5rem;
+.gap-3 {
+  gap: 0.75rem;
 }
-.rounded-3xl {
-  border-radius: 1.5rem;
+.overflow-hidden {
+  overflow: hidden;
 }
-.bg-slate-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
-}
-.bg-\[\#1A5319\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(26 83 25 / var(--tw-bg-opacity));
-}
-.bg-\[\#508D4E\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(80 141 78 / var(--tw-bg-opacity));
-}
-.bg-\[\#D6EFD8\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(214 239 216 / var(--tw-bg-opacity));
-}
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-.bg-\[F1F8E8\] {
-  background-color: F1F8E8;
+.rounded-b-3xl {
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
 }
 .bg-\[\#F1F8E8\] {
   --tw-bg-opacity: 1;
   background-color: rgb(241 248 232 / var(--tw-bg-opacity));
 }
-.fill-neutral-50 {
-  fill: #fafafa;
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
-.p-12 {
-  padding: 3rem;
+.p-4 {
+  padding: 1rem;
 }
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
+.p-8 {
+  padding: 2rem;
 }
-.px-24 {
-  padding-left: 6rem;
-  padding-right: 6rem;
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
+.text-center {
+  text-align: center;
 }
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
-.indent-1 {
-  text-indent: 0.25rem;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
-.indent-4 {
-  text-indent: 1rem;
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-light {
+  font-weight: 300;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.text-\[\#1A5319\] {
+  --tw-text-opacity: 1;
+  color: rgb(26 83 25 / var(--tw-text-opacity));
 }
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-.opacity-5 {
-  opacity: 0.05;
-}
-.opacity-10 {
-  opacity: 0.1;
-}
-.opacity-15 {
-  opacity: 0.15;
-}
-.brightness-0 {
-  --tw-brightness: brightness(0);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+.opacity-30 {
+  opacity: 0.3;
 }
 .grayscale-0 {
   --tw-grayscale: grayscale(0);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
-@media (min-width: 640px) {
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .headland-one-regular {
+    font-family: "Headland One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .playfair-display-regular {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @media (min-width: 640px) {
 
   .sm\:container {
     width: 100%;
@@ -665,23 +706,121 @@ video {
       max-width: 1536px;
     }
   }
+}
+
+  .hover\:bg-orange-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+}
+
+  .hover\:duration-75:hover {
+  transition-duration: 75ms;
+}
+
+  @media (min-width: 640px) {
+
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sm\:mt-4 {
+    margin-top: 1rem;
+  }
 
   .sm\:flex {
     display: flex;
   }
 
-  .sm\:justify-between {
-    justify-content: space-between;
+  .sm\:hidden {
+    display: none;
+  }
+
+  .sm\:w-24 {
+    width: 6rem;
   }
 
   .sm\:justify-around {
     justify-content: space-around;
   }
+
+  .sm\:gap-4 {
+    gap: 1rem;
+  }
+
+  .sm\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .sm\:text-left {
+    text-align: left;
+  }
+
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .sm\:font-medium {
+    font-weight: 500;
+  }
 }
-@media (min-width: 768px) {
+
+  @media (min-width: 768px) {
+
+  .md\:gap-8 {
+    gap: 2rem;
+  }
+
+  .md\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 
   .md\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
   }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }
+
+  @media (min-width: 1024px) {
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+}
+
+  @media (min-width: 1280px) {
+
+  .xl\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .xl\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .xl\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+  

@@ -8,36 +8,90 @@
 </head>
 <body class="bg-[#F1F8E8]">
 
-    <nav class="flex items-center justify-between p-12  md:px-24  ">
-        <div id="logo" class="w-24">
-            <img class="grayscale-0" src="../assets/1.png" alt="">
+    <nav class="flex items-center justify-between p-4  md:px-24  ">
+        <div id="logo" class="sm:w-24 w-12">
+            <img class="grayscale-0" src="../assets/logo-with-ring.png" alt="">
         </div>
+
 
         <div id="pages">
             <ul class="sm:flex items-center sm:justify-around gap-20 hidden ">
-            <a href=""><li>Home</li></a>
-            <a href=""><li>About Us</li></a>
-            <a href=""><li>Contact Us</li></a>
+            <a href=""><li class="lato-regular font-semibold text-lg">Home</li></a>
+            <a href=""><li class="lato-regular font-semibold text-lg">About Us</li></a>
+            <a href=""><li class="lato-regular font-semibold text-lg">Contact Us</li></a>
             </ul>
+
         </div>
+
+        
+
+                <div class="hamburger-icon block sm:hidden w-8  relative">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(26,83,25,1)"><path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path></svg>
+        </div>
+
+<div
+    class="cover hidden flex-col h-screen w-screen bg-[#F1F8E8] absolute top-0 left-0  sm:hidden overflow-hidden">
+    <div class="cross-icon  flex justify-end w-full ">
+        <!-- <i class="  ri-close-large-line block sm:hidden p-8 text-2xl font-bold relative  justify-end"></i> -->
+        <svg class="block sm:hidden mt-3 mr-4 w-8 font-bold relative  justify-end" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(26,83,25,1)"><path d="M10.5859 12L2.79297 4.20706L4.20718 2.79285L12.0001 10.5857L19.793 2.79285L21.2072 4.20706L13.4143 12L21.2072 19.7928L19.793 21.2071L12.0001 13.4142L4.20718 21.2071L2.79297 19.7928L10.5859 12Z"></path></svg>
+    </div>
+    <div class="links flex items-center justify-center">
+        <ul class="flex flex-col items-center justify-center p-8 lato-regular">
+            <li class="p-8 text-3xl hover:bg-orange-500 hover:duration-75 ease-in-out"><a href="index.html"
+                     rel="noopener noreferrer">Home</a></li>
+            <li class="p-8 text-3xl hover:bg-orange-500 hover:duration-75 ease-in-out"><a href="About.html"
+                     rel="noopener noreferrer">ABOUT</a></li>
+            <li class="p-8 text-3xl hover:bg-orange-500 hover:duration-75 ease-in-out"><a href="services.html"
+                     rel="noopener noreferrer">SERVICES</a></li>
+            <li class="p-8 text-3xl hover:bg-orange-500 hover:duration-75 ease-in-out"><a href="contact.html"
+                     rel="noopener noreferrer">CONTACT</a></li>
+    </div>
+
+</div>
+
+
     </nav>
 
-    <section id="hero" class="flex items-center w-full">
-<div id="vedio" class="flex w-full items-center justify-center px-12 ">
 
-    <div class="bg-black  rounded-3xl w-full">
-    <video class="relative rounded-3xl w-full  opacity-15"src="../assets/Untitled design.mp4" loop muted autoplay></video>
+    <!-- hero section  -->
+    <section id="hero" class="flex items-center w-full">
+<div id="vedio" class="flex w-full items-center justify-center  ">
+
+    <div class="bg-black  rounded-b-3xl  w-full">
+    <video class="relative rounded-b-3xl w-full  opacity-30"src="../assets/Untitled design.mp4" loop muted autoplay></video>
     </div>
     
-        <h1 class="absolute text-white">Quality Goods, Worldwide</h1>
+        <h1 class="absolute text-white sm:text-4xl md:text-6xl text-2xl font-light playfair-display-regular">Quality Goods, Worldwide</h1>
     
 
 </div>
     </section>
 
 
+    <!-- about-section  -->
+    <section id="about" class="mt-5 sm:mt-4 flex lg:flex-row flex-col px-6  items-center justify-around sm:container sm:mx-auto md:px-12 xl:px-12">
+        <div id="content" class="flex flex-col gap-3 sm:gap-4 md:gap-8 ">
+            <h2 class="sm:font-medium font-semibold  text-3xl sm:text-4xl md:text-6xl headland-one-regular text-[#1A5319] text-center sm:text-left xl:text-6xl">Who We Are?</h1>
+            <div>
+                <p class="sm:text-left text-center xl:text-xl text-base lato-regular text-[#1A5319] ">Garvo Panoptic LLP combines innovative logistics solutions with a commitment to quality, ensuring seamless import and export of Ayurvedic products, allopathic medicines, and surgical items. Explore our legacy of trust and global reach.</p>
+            </div>
+        </div>
+
+        <div class="w-full">
+            <img src="../assets/truck.jpg" alt="">
+        </div>
+    </section>
+
+
+    <!-- our services section  -->
+
+    <section class="">
+
+    </section>
+
 
 
 
 </body>
+<script src="../src/main.js"></script>
 </html>
