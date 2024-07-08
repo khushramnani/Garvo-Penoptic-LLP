@@ -19,7 +19,14 @@
     font-style: normal;
   }
 
+
   .playfair-display-regular {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .playfair-display-medium {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 400;
