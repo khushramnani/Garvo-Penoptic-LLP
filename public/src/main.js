@@ -1,7 +1,12 @@
+window.onload = function() {
+  // Reset the form fields when the page loads
+  document.getElementById("form").reset();
+};
 let open = document.querySelector('.hamburger-icon')
 let close = document.querySelector('.cross-icon')
 
 let coverPage = document.querySelector('.cover')
+
 
 open.addEventListener('click',()=>{
     coverPage.classList.add('flex')

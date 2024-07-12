@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About-Us</title>
     <link rel="stylesheet" href="output.css">
 </head>
+
 <body class="bg-[#F1F8E8]">
-    <nav class="flex items-center justify-between p-4  md:px-24 sm:px-12 ">
-        <div id="logo" class="sm:w-24 w-12 md:w-48">
-            <img class="grayscale-0" src="../assets/2.png" alt="">
+    <nav class="flex items-center justify-between p-4  md:px-12 lg:px-24 sm:px-12 ">
+        <div id="logo" class="sm:w-24 w-12 lg:w-48 ">
+            <img class="grayscale-0" src="./assets/2.png" alt="">
         </div>
 
 
         <div id="pages">
-            <ul class="sm:flex items-center sm:justify-around gap-20 hidden ">
-                <a href="">
-                    <li class="lato-regular font-semibold text-lg text-[#1A5319] hover:border-b-2 hover:border-b-[#1A5319]">Home</li>
+            <ul class="md:flex items-center sm:justify-around lg:gap-20 md:gap-14 hidden ">
+                <a href="index.html">
+                    <li
+                        class="lato-regular font-semibold text-lg text-[#1A5319] hover:border-b-2 hover:border-b-[#1A5319]">
+                        Home</li>
                 </a>
-                <a href="">
-                    <li class="lato-regular font-semibold text-lg text-[#1A5319] hover:border-b-2 hover:border-b-[#1A5319]">About Us</li>
+                <a href="About.html">
+                    <li
+                        class="lato-regular font-semibold text-lg text-[#1A5319] hover:border-b-2 hover:border-b-[#1A5319]">
+                        About Us</li>
                 </a>
-                <a href="">
-                    <li class="lato-regular font-semibold text-lg text-[#1A5319] hover:border-b-2 hover:border-b-[#1A5319]">Services</li>
+                <a href="Services.html">
+                    <li
+                        class="lato-regular font-semibold text-lg text-[#1A5319] hover:border-b-2 hover:border-b-[#1A5319]">
+                        Services</li>
                 </a>
-                <a href="">
-                    <li class="lato-regular font-semibold text-lg text-[#1A5319] hover:border-b-2 hover:border-b-[#1A5319]">Contact Us</li>
+                <a href="Contact.html">
+                    <li
+                        class="lato-regular font-semibold text-lg text-[#1A5319] hover:border-b-2 hover:border-b-[#1A5319]">
+                        Contact Us</li>
                 </a>
             </ul>
 
@@ -33,7 +43,7 @@
 
 
 
-        <div class="hamburger-icon block sm:hidden w-8  relative">
+        <div class="hamburger-icon block md:hidden w-8  relative">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(26,83,25,1)">
                 <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
             </svg>
@@ -52,14 +62,14 @@
             </div>
             <div class="links flex items-center justify-center">
                 <ul class="flex flex-col items-center justify-center p-8 lato-regular">
-                    <li class="p-8 text-3xl hover:bg-[#D6EFD8] hover:duration-75 ease-in-out text-[#1A5319]"><a href="index.html"
-                            rel="noopener noreferrer">Home</a></li>
-                    <li class="p-8 text-3xl hover:bg-orange-500 hover:duration-75 ease-in-out text-[#1A5319]"><a href="About.html"
-                            rel="noopener noreferrer">ABOUT</a></li>
-                    <li class="p-8 text-3xl hover:bg-[#D6EFD8] hover:duration-75 ease-in-out text-[#1A5319]"><a href="services.html"
-                            rel="noopener noreferrer">SERVICES</a></li>
-                    <li class="p-8 text-3xl hover:bg-[#D6EFD8] hover:duration-75 ease-in-out text-[#1A5319]"><a href="contact.html"
-                            rel="noopener noreferrer">CONTACT</a></li>
+                    <li class="p-8 text-3xl hover:bg-[#D6EFD8] hover:duration-75 ease-in-out text-[#1A5319]"><a
+                            href="index.html" rel="noopener noreferrer">Home</a></li>
+                    <li class="p-8 text-3xl hover:bg-[#D6EFD8] hover:duration-75 ease-in-out text-[#1A5319]"><a
+                            href="About.html" rel="noopener noreferrer">ABOUT</a></li>
+                    <li class="p-8 text-3xl hover:bg-[#D6EFD8] hover:duration-75 ease-in-out text-[#1A5319]"><a
+                            href="Services.html" rel="noopener noreferrer">SERVICES</a></li>
+                    <li class="p-8 text-3xl hover:bg-[#D6EFD8] hover:duration-75 ease-in-out text-[#1A5319]"><a
+                            href="Contact.html" rel="noopener noreferrer">CONTACT</a></li>
             </div>
 
         </div>
@@ -69,23 +79,130 @@
 
     <!-- hero section  -->
 
-    <section>
+    <section class="p-4 flex items-center w-full ">
         <div id="content"
-        class="flex items-center justify-around w-full md:gap-10 md:px-12 sm:px-6 px-4 flex-col md:flex-row pt-8 md:pt-0">
-        <div class="title md:w-[50%] w-full md:p-16 flex items-center justify-center text-center">
-            <h2 class="sm:text-4xl md:text-6xl lg:text-7xl text-3xl  playfair-display-medium text-[#1A5319] pb-3">
-                Shipping Across the Globe</h2>
-        </div>
+            class="flex items-center justify-around w-full md:gap-10 md:px-12 sm:px-6 px-4 flex-col-reverse lg:flex-row pt-4 md:pt-0">
+            <div class="title  lg:w-[40%] w-full  flex items-center justify-center text-center flex-col">
+                <h2
+                    class=" w-full md:text-3xl lg:text-4xl text-2xl  playfair-display-medium text-[#1A5319] font-semibold">
+                    "Connecting the World with Quality Ayurvedic and Medical Products"</h2>
 
-        <div class="para md:w-[50%] w-full">
-            <p class="sm:text-left text-center xl:text-xl text-base lato-regular text-[#1A5319] ">At Garvo Panoptic
-                LLP, we ensure your products reach their destination efficiently, no matter where in the world. Our
-                extensive network spans across air, road, and sea, guaranteeing seamless delivery to every corner of
-                the globe. Partner with us for unparalleled reliability and reach in global trade. Your business,
-                delivered everywhere.</p>
-        </div>
+                <div class="lg:w-16 lg:block hidden  mt-20">
+                    <svg class="fill-[#1A5319]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M13.0001 16.1716L18.3641 10.8076L19.7783 12.2218L12.0001 20L4.22192 12.2218L5.63614 10.8076L11.0001 16.1716V4H13.0001V16.1716Z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
 
-    </div>
+            <div class="img w-[80%] lg:w-[60%]">
+                <img src="./assets/group-photo-concept-illustration.png" alt="">
+            </div>
+
+        </div>
     </section>
+
+
+    <!-- contents  -->
+
+    <section class="flex items-center p-4 w-full md:mt-8 mt-4 flex-col gap-12 md:gap-20">
+
+        <div class="row flex items-center justify-center w-full flex-col md:flex-row">
+            <div class="title w-full md:w-[40%]">
+                <h2 class="sm:font-semibold font-semibold  text-3xl  md:text-4xl headland-one-regular text-[#1A5319] text-center xl:text-6xl">
+                Who We Are?</h1>
+            </div>
+
+            <div class="info w-full md:w-[60%] border-2 border-[#1A5319] p-4 sm:p-8 rounded-3xl">
+                <p class="md:text-left text-center xl:text-xl text-base lato-regular text-[#1A5319] ">Garvo Panoptic
+                    LLP combines innovative logistics solutions with a commitment to quality, ensuring seamless
+                    import and export of Ayurvedic products, allopathic medicines, and surgical items. Explore our
+                    legacy of trust and global reach.</p>
+            </div>
+        </div>
+        
+
+        <div class="row flex items-center justify-center w-full flex-col md:flex-row">
+            <div class="title w-full md:w-[40%]">
+                <h2 class="sm:font-semibold font-semibold  text-3xl  md:text-4xl headland-one-regular text-[#1A5319] text-center xl:text-6xl">Our Vision</h1>
+            </div>
+
+            <div class="info w-full md:w-[60%] border-2 border-[#1A5319] p-4 sm:p-8 rounded-3xl">
+                <p class="md:text-left text-center xl:text-xl text-base lato-regular text-[#1A5319] ">We are committed to upholding the highest standards of quality in all our products and services. Our goal is to deliver exceptional efficiency and reliability, ensuring that every pharma professional and customer experiences the best in healthcare solutions.</p>
+            </div>
+        </div>
+
+        <div class="row flex items-center justify-center w-full flex-col md:flex-row">
+            <div class="title w-full md:w-[40%]">
+                <h2 class="sm:font-semibold font-semibold  text-3xl  md:text-4xl headland-one-regular text-[#1A5319] text-center xl:text-6xl">
+                Our Mission</h1>
+            </div>
+
+            <div class="info w-full md:w-[60%] border-2 border-[#1A5319] p-4 sm:p-8 rounded-3xl">
+                <p class="md:text-left text-center xl:text-xl text-base lato-regular text-[#1A5319] ">Our mission is to create a healthier, disease-free environment for society. We are dedicated to addressing health issues with the latest and most innovative medical products. By staying at the forefront of medical advancements, we strive to provide our community with the best possible health solutions.</p>
+            </div>
+        </div>
+
+        <div class="row flex items-center justify-center w-full flex-col md:flex-row">
+            <div class="title w-full md:w-[40%]">
+                <h2 class="sm:font-semibold font-semibold  text-3xl  md:text-4xl headland-one-regular text-[#1A5319] text-center xl:text-6xl">
+                Manufacturing Unit</h1>
+            </div>
+
+            <div class="info w-full md:w-[60%] border-2 border-[#1A5319] p-4 sm:p-8 rounded-3xl">
+                <p class="md:text-left text-center xl:text-xl text-base lato-regular text-[#1A5319] ">Our state-of-the-art manufacturing facilities adhere to the stringent guidelines set by the World Health Organization (WHO) and Good Manufacturing Practices (GMP). We prioritize quality at every stage of production to ensure our products meet and exceed international standards, providing safe and effective solutions for global health.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer section  -->
+    <footer class="w-full grid items-center justify-center grid-cols-1  md:grid-flow-row md:grid-cols-3 bg-[#D6EFD8] md:pt-20 md:pb-4 sm:py-9 pt-7 pb-3 px-8 gap-8 rounded-t-3xl">
+        <div class="socials flex items-center justify-center gap-4 flex-col">
+          <div class="vl"></div>
+          <div class="title">
+            <h2
+            class="sm:font-semibold font-semibold  text-3xl sm:text-4xl md:text-6xl headland-one-regular text-[#1A5319] text-center sm:text-left xl:text-6xl flex items-center justify-center ">
+            Follow Us</h2>
+          </div>
+  
+          <div class="links flex items-center justify-center gap-4">
+            <a href="http://" target="_blank" rel="noopener noreferrer"><svg class="fill-[#1A5319] w-12 hover:scale-90"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z"></path></svg></a>
+  
+  
+            <a href="http://" target="_blank" rel="noopener noreferrer"><svg class="fill-[#1A5319] w-12 hover:scale-90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M13.001 19.9381C16.9473 19.446 20.001 16.0796 20.001 12C20.001 7.58172 16.4193 4 12.001 4C7.5827 4 4.00098 7.58172 4.00098 12C4.00098 16.0796 7.05467 19.446 11.001 19.9381V14H9.00098V12H11.001V10.3458C11.001 9.00855 11.1402 8.52362 11.4017 8.03473C11.6631 7.54584 12.0468 7.16216 12.5357 6.9007C12.9184 6.69604 13.3931 6.57252 14.2227 6.51954C14.5519 6.49851 14.9781 6.52533 15.501 6.6V8.5H15.001C14.0837 8.5 13.7052 8.54332 13.4789 8.66433C13.3386 8.73939 13.2404 8.83758 13.1653 8.97793C13.0443 9.20418 13.001 9.42853 13.001 10.3458V12H15.501L15.001 14H13.001V19.9381ZM12.001 22C6.47813 22 2.00098 17.5228 2.00098 12C2.00098 6.47715 6.47813 2 12.001 2C17.5238 2 22.001 6.47715 22.001 12C22.001 17.5228 17.5238 22 12.001 22Z"></path></svg></a>
+  
+  
+            <a href="http://" target="_blank" rel="noopener noreferrer"><svg class="fill-[#1A5319] w-12 hover:scale-90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M8 2H1L9.26086 13.0145L1.44995 21.9999H4.09998L10.4883 14.651L16 22H23L14.3917 10.5223L21.8001 2H19.1501L13.1643 8.88578L8 2ZM17 20L5 4H7L19 20H17Z"></path></svg></a>
+          </div>
+        </div>
+        <div class="logo w-full flex items-center justify-center">
+          <img src="./assets/2.png" alt="">
+        </div>
+        <div class="contact gap-5">
+          <div class="title">
+            <h2
+            class="sm:font-semibold font-semibold  text-3xl sm:text-4xl md:text-6xl headland-one-regular text-[#1A5319] text-center sm:text-left xl:text-6xl flex items-center justify-center ">
+            Contact Us</h2>
+          </div>
+          <div class="content flex items-center justify-center flex-col ">
+            <a href="mailto:"><h4 class="headland-one-regular text-[#1A5319] text-xl hover:scale-90">Email:Info@Garvopenoptic.com</h4></a>
+            <a href="tel:+"><h4 class="headland-one-regular text-[#1A5319] text-xl hover:scale-90">Phone:+919510809706</h4></a>
+          </div>
+        </div>
+  
+        <div class="copyright">
+          <h4 class="headland-one-regular text-[#1A5319]">&COPY; 2024 Garvo Penoptic LLP. All rights reserved. -Garvopenoptic.com </h4>
+        </div>
+        </footer>
+
+
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./src/main.js"></script>
 </html>
