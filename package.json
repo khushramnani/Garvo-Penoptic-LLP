@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "postcss ./src/input.css -o ./public/output.css --watch"
+    "dev": "postcss ./public/src/input.css -o ./public/output.css --watch"
   },
   "keywords": [],
   "author": "",
