@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "target": "garvo-panoptic",
     "public": "public",
     "ignore": [
       "firebase.json",

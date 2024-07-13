@@ -1,5 +1,16 @@
 {
   "projects": {
     "default": "garvo-panoptic"
-  }
+  },
+  "targets": {
+    "garvo-panoptic": {
+      "hosting": {
+        "garvo-panoptic": [
+          "garvo-panoptic"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
